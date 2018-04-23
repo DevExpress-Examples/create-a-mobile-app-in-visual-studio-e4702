@@ -1,0 +1,11 @@
+<div data-options="dxView : { name: 'products', title: 'products' } " >
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <div data-bind="dxTextBox: { mode: 'search', value: searchString, visible: showSearch, valueUpdateEvent: 'search change keyup' }"></div>
+        <div data-bind="dxList: { dataSource: dataSource }">
+            <div data-options="dxTemplate : { name: 'item' }" data-bind="dxAction: '#product_details/{ProductID}'">
+                <div data-bind="text: ProductName"></div>
+            </div>
+        </div>
+    </div>
+    <div data-bind="dxCommand: { id: 'search', title: 'Search', placeholder: 'Search...', icon: 'find', action: find }" ></div>
+</div>
