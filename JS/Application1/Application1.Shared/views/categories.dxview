@@ -1,0 +1,9 @@
+<div data-options="dxView : { name: 'categories', title: 'Categories' } " >
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <div data-bind="dxList: { dataSource: dataSource }">
+            <div data-options="dxTemplate : { name: 'item' } ">
+                <div data-bind="text: CategoryName, dxAction: '#products/{CategoryID}'" ></div>
+            </div>
+        </div>
+    </div>
+</div>

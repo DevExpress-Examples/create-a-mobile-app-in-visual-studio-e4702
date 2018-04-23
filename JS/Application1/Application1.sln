@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "Application1.Shared", "Application1.Shared\Application1.Shared.dxjsproj", "{7C61BDB4-F7FF-4C10-89C7-21161BBA94C9}"
+EndProject
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "Application1.Desktop", "Application1.Desktop\Application1.Desktop.dxjsproj", "{DF614B53-E167-4F63-B1F8-53EBC4373B55}"
+EndProject
+Project("{1B19158F-E398-40A6-8E3B-350508E125F1}") = "Application1.Mobile", "Application1.Mobile\Application1.Mobile.dxjsproj", "{5B5F0F7C-25FF-41E9-962B-051593A042E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C61BDB4-F7FF-4C10-89C7-21161BBA94C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C61BDB4-F7FF-4C10-89C7-21161BBA94C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C61BDB4-F7FF-4C10-89C7-21161BBA94C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C61BDB4-F7FF-4C10-89C7-21161BBA94C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF614B53-E167-4F63-B1F8-53EBC4373B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF614B53-E167-4F63-B1F8-53EBC4373B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF614B53-E167-4F63-B1F8-53EBC4373B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF614B53-E167-4F63-B1F8-53EBC4373B55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B5F0F7C-25FF-41E9-962B-051593A042E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5F0F7C-25FF-41E9-962B-051593A042E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5F0F7C-25FF-41E9-962B-051593A042E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5F0F7C-25FF-41E9-962B-051593A042E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

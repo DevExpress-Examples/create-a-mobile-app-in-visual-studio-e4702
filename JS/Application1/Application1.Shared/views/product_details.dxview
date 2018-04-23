@@ -1,0 +1,14 @@
+<div data-options="dxView : { name: 'product_details', title: 'Product' } " >
+        <div data-options="dxContent : { targetPlaceholder: 'content' } " >
+            <div class="dx-fieldset">
+                    <div class="dx-field">
+                        <div class="dx-field-label">Id: </div>
+                        <div class="dx-field-value" data-bind="text: product.ProductID"></div>
+                    </div>
+                    <div class="dx-field">
+                        <div class="dx-field-label">Name: </div>
+                        <div class="dx-field-value" data-bind="text: product.ProductName"></div>
+                    </div>
+            </div>
+        </div>
+</div>
